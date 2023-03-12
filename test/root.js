@@ -25,6 +25,6 @@ before(function(done) {
       global[key] = window[key];
     });
 
-    return done();
+    return done();  
   });
 });
